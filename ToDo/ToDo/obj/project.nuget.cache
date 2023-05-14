@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "egCRXPX9t/OwXFw26LYfF29EQnN0zUPz5VlzVrrE/A2UB1+Lk8PF5MReKrWfLtQAu/FFLggqzqGmP+dZYTQnSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mydis\\source\\repos\\ToDo\\ToDo\\ToDo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mydis\\.nuget\\packages\\notifications.wpf.core\\1.4.1\\notifications.wpf.core.1.4.1.nupkg.sha512",
+    "C:\\Users\\mydis\\.nuget\\packages\\syncfusion.licensing\\21.2.3\\syncfusion.licensing.21.2.3.nupkg.sha512",
+    "C:\\Users\\mydis\\.nuget\\packages\\syncfusion.sfchart.wpf\\21.2.3\\syncfusion.sfchart.wpf.21.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

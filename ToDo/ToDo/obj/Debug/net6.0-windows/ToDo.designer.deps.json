@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Notifications.Wpf.Core/1.4.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Notifications.Wpf.Core.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.4.1.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/21.2.3": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "21.2.3.0",
+            "fileVersion": "21.2.3.0"
+          }
+        }
+      },
+      "Syncfusion.SfChart.WPF/21.2.3": {
+        "dependencies": {
+          "Syncfusion.Licensing": "21.2.3"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.SfChart.WPF.dll": {
+            "assemblyVersion": "21.2.3.0",
+            "fileVersion": "21.2.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Notifications.Wpf.Core/1.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ivpjFIu+oMFKlnJhh6G9QI5uU4+W9wYTrZJHUG0a5yvLVZ4GewRmHeVb4fqaJ1fH6V4DlCrc7BnV0gogxLo4g==",
+      "path": "notifications.wpf.core/1.4.1",
+      "hashPath": "notifications.wpf.core.1.4.1.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/21.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9ZS+tE48qD3jtE0brkf0ZA5JnvxHOxll6IwJb7kNoJuJPuOUwLUGSmJ82fQ5VFRO5VtwONvKHDnvdJ5nAzeXKw==",
+      "path": "syncfusion.licensing/21.2.3",
+      "hashPath": "syncfusion.licensing.21.2.3.nupkg.sha512"
+    },
+    "Syncfusion.SfChart.WPF/21.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qG6fMDOCRlQn3OV5CJi0a+mNi47NP9aSaYmcHnqvPgw2dInJ5XoWjm9F+R4oSoU5qKry5EoXh9BwqGBB1X8XmQ==",
+      "path": "syncfusion.sfchart.wpf/21.2.3",
+      "hashPath": "syncfusion.sfchart.wpf.21.2.3.nupkg.sha512"
+    }
+  }
+}

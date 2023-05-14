@@ -1,0 +1,210 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Notifications.Wpf.Core/1.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Notifications.Wpf.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Notifications.Wpf.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Syncfusion.Licensing/21.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfChart.WPF/21.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.2.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Syncfusion.SfChart.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.SfChart.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Notifications.Wpf.Core/1.4.1": {
+      "sha512": "5ivpjFIu+oMFKlnJhh6G9QI5uU4+W9wYTrZJHUG0a5yvLVZ4GewRmHeVb4fqaJ1fH6V4DlCrc7BnV0gogxLo4g==",
+      "type": "package",
+      "path": "notifications.wpf.core/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0-windows7.0/Notifications.Wpf.Core.dll",
+        "lib/net6.0-windows7.0/Notifications.Wpf.Core.xml",
+        "notifications.wpf.core.1.4.1.nupkg.sha512",
+        "notifications.wpf.core.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/21.2.3": {
+      "sha512": "9ZS+tE48qD3jtE0brkf0ZA5JnvxHOxll6IwJb7kNoJuJPuOUwLUGSmJ82fQ5VFRO5VtwONvKHDnvdJ5nAzeXKw==",
+      "type": "package",
+      "path": "syncfusion.licensing/21.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.21.2.3.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.SfChart.WPF/21.2.3": {
+      "sha512": "qG6fMDOCRlQn3OV5CJi0a+mNi47NP9aSaYmcHnqvPgw2dInJ5XoWjm9F+R4oSoU5qKry5EoXh9BwqGBB1X8XmQ==",
+      "type": "package",
+      "path": "syncfusion.sfchart.wpf/21.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.dll",
+        "lib/net40/Syncfusion.SfChart.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.dll",
+        "lib/net45/Syncfusion.SfChart.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.dll",
+        "lib/net451/Syncfusion.SfChart.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfChart.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.dll",
+        "lib/net46/Syncfusion.SfChart.WPF.xml",
+        "lib/net6.0-windows7.0/Design/Syncfusion.SfChart.WPF.DesignTools.dll",
+        "lib/net6.0-windows7.0/Syncfusion.SfChart.WPF.dll",
+        "lib/net6.0-windows7.0/Syncfusion.SfChart.WPF.xml",
+        "syncfusion.sfchart.wpf.21.2.3.nupkg.sha512",
+        "syncfusion.sfchart.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Notifications.Wpf.Core >= 1.4.1",
+      "Syncfusion.SfChart.WPF >= 21.2.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mydis\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mydis\\source\\repos\\ToDo\\ToDo\\ToDo.csproj",
+      "projectName": "ToDo",
+      "projectPath": "C:\\Users\\mydis\\source\\repos\\ToDo\\ToDo\\ToDo.csproj",
+      "packagesPath": "C:\\Users\\mydis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mydis\\source\\repos\\ToDo\\ToDo\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mydis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Notifications.Wpf.Core": {
+            "target": "Package",
+            "version": "[1.4.1, )"
+          },
+          "Syncfusion.SfChart.WPF": {
+            "target": "Package",
+            "version": "[21.2.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
